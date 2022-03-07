@@ -84,5 +84,10 @@ DBの問題だとしても把握できてないのが現実でした。
   * MySQLの場合は1日500MBを目安として計算しています。
   * 設定画面でログの削除期間を設定できます。
 
+## お問い合わせ
 
+lowyshin@shinsema.jp
 
+## リンク
+
+* [全てのRPAツールを統合管理！giip RPA orchestrator](https://giipasp.azurewebsites.net)
