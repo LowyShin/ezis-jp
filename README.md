@@ -31,6 +31,9 @@ DBの問題だとしても把握できてないのが現実でした。
 * タイムマシン機能
   * 問題が起きた時点のDBの状況が詳しく確認できます。
   * 過去のデータを探すためにログファイルを探したりメモリ上のデータを見たりモニタリングツールを見たりする手間が省けます。
+
+![Session-SQL-Analysis](https://github.com/LowyShin/ezis-jp/blob/main/images/intro/ezis-intro-session-sqlana.png)
+
 * 横展開可能なUI
   * 問題が起きた時点を基準に調査しながら並列の調査がしやすくリンクをサポートしてます。
 * 性能測定に必要な機能
