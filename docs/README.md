@@ -49,5 +49,39 @@
 
 ## 機能の見方
 
+### Activity
+
+* Activity
+  * Active Sessions Count (ORACLE, SQL Server)
+  * redo size (ORACLE)
+  * Execute to Parse % (ORACLE)
+  * Lock Count (SQL Server)
+  * Total Wait Time (ms)
+  * Page reads/sec
+
+
+* Session
+
+
+
+### Performance
+
+### LockWait(MySQL, Mariadb)
+
+### WaitAnalysis(ORACLE, SQL Server)
+
+### EventAnalysis(ORACLE, SQL Server)
+
+### SQLAnalysis(ORACLE)
+
+### ChangeTracking(ORACLE)
+
+### CapacityManagement
+
+### TraceFile(ORACLE)
+
+### Setting
+
+
 
 
