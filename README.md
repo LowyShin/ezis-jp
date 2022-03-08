@@ -84,6 +84,26 @@ DBの問題だとしても把握できてないのが現実でした。
   * MySQLの場合は1日500MBを目安として計算しています。
   * 設定画面でログの削除期間を設定できます。
 
+## ダウンロード
+
+ezisはサーバー側のAgentは不要なのでモニターする側のサーバーまたはパソコンにインストールする必要があります。
+
+インストールしたらWebサーバーが立ち上がるので他の運用メンバーがインストールした端末にURLまたはIPで接続すると複数の人が管理できます。
+
+### Windows
+
+* [Ezis for ORACLE](https://www.ezis.cloud/downloads/ezis/oracle/windows)
+* [Ezis for MySQL(Mariadb)](https://www.ezis.cloud/downloads/ezis/maria/windows)
+* [Ezis for SQL Server](https://www.ezis.cloud/downloads/ezis/sqlserver/windows)
+* [Ezis for PostgreSQL](https://www.ezis.cloud/downloads/ezis/postgre/windows)
+
+### Ubuntu
+
+* [Ezis for ORACLE](https://www.ezis.cloud/downloads/ezis/oracle/linux)
+* [Ezis for MySQL(Mariadb)](https://www.ezis.cloud/downloads/ezis/maria/linux)
+* [Ezis for SQL Server](https://www.ezis.cloud/downloads/ezis/sqlserver/linux)
+* [Ezis for PostgreSQL](https://www.ezis.cloud/downloads/ezis/postgre/linux)
+
 ## お問い合わせ
 
 lowyshin@shinsema.jp
