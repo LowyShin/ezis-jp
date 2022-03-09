@@ -104,6 +104,8 @@ ezisはサーバー側のAgentは不要なのでモニターする側のサー�
 
 インストールしたらWebサーバーが立ち上がるので他の運用メンバーがインストールした端末にURLまたはIPで接続すると複数の人が管理できます。
 
+* [インストールから操作マニュアル](https://github.com/LowyShin/ezis-jp/docs)
+
 ### Windows
 
 * [Ezis for ORACLE](https://www.ezis.cloud/downloads/ezis/oracle/windows)
