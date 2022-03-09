@@ -25,6 +25,7 @@
 
   * [Activity(MySQL/Mariadb)](func-activity-mysql.md)
   * [Threads(MySQL/Mariadb)](func-activity-mysql.md#テーブル式データ)
+  * [Performance(MySQL/Mariadb)](func-performance-mysql.md)
 
 ### SQL Serverの機能
 

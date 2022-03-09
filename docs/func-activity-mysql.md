@@ -42,7 +42,7 @@
 * Innodb_buffer_pool_read_rrequests
 * Innodb_buffer_pool_reads
 * Innodb_page_size
-* Innodb_row_loc_current_waits
+* Innodb_row_lock_current_waits
 * Innodb_rows_updated
 * Key_blocks_not_flushed
 * Key_blocks_unused
