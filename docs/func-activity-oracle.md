@@ -1,6 +1,6 @@
-## Activity
+# アクティビティ - ezis DB パフォーマンス分析ツール
 
-* Activity(ORACLE)
+* アクティビティ(ORACLE)
   * Active Sessions Count
   * redo size
   * Execute to Parse % 
@@ -20,7 +20,7 @@
   * Lock
   * Event
 
-* Activity(MySQL, Mariadb)
+* アクティビティ(MySQL, Mariadb)
   * Connections
   * Questions
   * Threads_connected
