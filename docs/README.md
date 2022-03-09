@@ -9,14 +9,15 @@
 4. 機能の見方
 
   * [Activity(ORACLE)](func-activity-oracle.md)
-
   * [Performance(ORACLE)](func-performance-oracle.md)
+  * [WaitAnalysis(ORACLE)](func-waitanalysis-oracle.md)
+  * [EventAnalysis(ORACLE)](func-eventanalysis-oracle.md)
+
+
+  * [WaitAnalysis(SQL Server)](func-waitanalysis-sqlserver.md)
+  * [EventAnalysis(SQL Server)](func-eventanalysis-sqlserver.md)
 
 ### LockWait(MySQL, Mariadb)
-
-### WaitAnalysis(ORACLE, SQL Server)
-
-### EventAnalysis(ORACLE, SQL Server)
 
 ### SQLAnalysis(ORACLE)
 

@@ -17,7 +17,7 @@
     * Block Changes
   * sql_id
     * 実行したSQL IDを表示
-    * クリックするとSQLの詳細画面が開きます。
+    * クリックすると[SQLの詳細画面](#sql-detailsql詳細)が開きます。
 * TopSession
   * CPU Used
   * Execute count
@@ -114,39 +114,40 @@
   * value_max
 * Lock
 * Latency
-* SQL Detail(SQL詳細)
-  * Sql text
-    * Format SQL
-      * SQLを見やすく自動的に行分けをしてくれます。
-    * Copy
-  * Sql text(bind)
-  * Bind
-  * SQL Tracking
-    * disk reads
-    * buffer gets
-    * user IO wait time
-    * cpu time
-    * elapsedtime
-    * executions
-  * SQL Find
-  * 日付指定
-  * SQL info
-    * 選択した日付の1日処理した統計情報です。Performanceメニューから1時間等期間を縮めてもこのデータは変わりません。
-    * first_load_time
-    * disk_reads
-    * user_io_wait_time
-    * ElapsedTime(ms) AVG
-    * sorts
-    * optimizer_mode
-    * module
-    * last active_time
-    * buffer_gets
-    * cpu_time
-    * executions
-    * version_count
-    * plan_hash_value
-  * Plan
-    * 「Sql text(bind)」メニューから一回プランを作ると削除されるまで表示されます。
-  * Plan History
-    * Planを作成した履歴を表示されます。
+
+### SQL Detail(SQL詳細)
+* Sql text
+  * Format SQL
+    * SQLを見やすく自動的に行分けをしてくれます。
+  * Copy
+* Sql text(bind)
+* Bind
+* SQL Tracking
+  * disk reads
+  * buffer gets
+  * user IO wait time
+  * cpu time
+  * elapsedtime
+  * executions
+* SQL Find
+* 日付指定
+* SQL info
+  * 選択した日付の1日処理した統計情報です。Performanceメニューから1時間等期間を縮めてもこのデータは変わりません。
+  * first_load_time
+  * disk_reads
+  * user_io_wait_time
+  * ElapsedTime(ms) AVG
+  * sorts
+  * optimizer_mode
+  * module
+  * last active_time
+  * buffer_gets
+  * cpu_time
+  * executions
+  * version_count
+  * plan_hash_value
+* Plan
+  * 「Sql text(bind)」メニューから一回プランを作ると削除されるまで表示されます。
+* Plan History
+  * Planを作成した履歴を表示されます。
 
