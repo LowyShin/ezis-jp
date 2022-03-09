@@ -112,6 +112,104 @@
 
 ### Performance
 
+* Server
+  * 見たいサーバーをクリックするとそのサーバーの性能情報に切り替わります。初期値は最初のサーバーになるのでご注意ください。
+* Time Line
+  * 好きな時間帯にマウスをドラッグするとその時間帯の状態が確認できます。（最短1時間単位）
+* Top Activity
+* TopSql
+  * Actifity
+  * Disk Reads
+  * Elapsed
+  * CPU Time
+  * P/Reads(Physical Reads)
+  * L/Reads(Logical Reads)
+  * Buffer Gets
+  * Block Changes
+* TopSession
+  * CPU Used
+  * Execute count
+  * L/Reads
+  * P/Reads
+  * Redo
+* Sysstat
+  * % Non-Parse CPU
+  * Active Sessions Count
+  * Block Changes
+  * Buffer Hit %
+  * Buffer Nowait %
+  * consistent changes
+  * CPU used by this session
+  * Data Dictionary Hit Ratio
+  * db block changes
+  * enqueue waits
+  * execute count
+  * Execute to Parse %
+  * In-memory Sort %
+  * Latch Hit %
+  * Library Cache Get Hit %
+  * Library Cache Pin Hit %
+  * Lock Count
+  * logons cumulative
+  * logons current
+  * Memory Usage %
+  * Parse CPU to Parse Elapsed %
+  * physical blocks read
+  * Redo Nowait %
+  * redo size
+  * session logical reads
+  * SessionEvent/db file scattered read
+  * SessionEvent/Enq
+  * SessionEvent/library cache pin
+  * SessionEvent/log file sync
+  * Soft Parse %
+  * Total Wait
+  * undo change vector size
+  * user commits
+  * user rollbacks
+* IO
+  * IO Type
+    * Read Req
+    * Write Req
+    * Read MB
+    * Write MB
+  * IO Function
+    * Others(MB)
+    * Others(Req)
+    * XDB(MB)
+    * XDB(Req)
+    * Streams AQ(MB)
+    * Streams AQ(Req)
+    * Smart Scan(MB)
+    * Smart Scan(Req)
+    * Direct Reads(MB)
+    * Direct Reads(Req)
+    * DBWR(MB)
+    * DBWR(Req)
+    * Data Pump(MB)
+    * Data Pump(Req)
+    * Direct Writes(MB)
+    * Direct Writes(Req)
+    * Recovery(MB)
+    * Recovery(Req)
+    * RMAN(MB)
+    * RMAN(Req)
+    * ARCH(MB)
+    * ARCH(Req)
+    * Archive Manager(MB)
+    * Archive Manager(Req)
+    * LGWR(MB)
+    * LGWR(Req)
+    * Buffer Cache Reads(MB)
+    * Buffer Cache Reads(Req)
+* Parallel Execution
+* Services
+* Throughput
+  * per second
+  * transactions
+* Active Session
+* Lock
+
 ### LockWait(MySQL, Mariadb)
 
 ### WaitAnalysis(ORACLE, SQL Server)
