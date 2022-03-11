@@ -64,6 +64,26 @@ SQLまたは実行コマンド。
 
 処理時間(ミリセカンド、1/1000秒)
 
+### err_count
+
+エラー数
+
+### exec_count
+
+実行数
+
+### exec_time_avg_ms
+
+平均実行時間(ms、ミリセカンド)
+
+### exec_time_max_ms
+
+最大実行時間(ms、ミリセカンド)
+
+### exec_time_total_ms
+
+全体実行時間(ms、ミリセカンド)
+
 ### Exlcude sleep
 
 [MySQL]
@@ -152,6 +172,10 @@ SQL文
 [MySQL]
 
 状態
+
+### sum_rows_sent
+
+外部へ送信した行数の合計
 
 ### Threads count
 

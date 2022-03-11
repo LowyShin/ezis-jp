@@ -34,12 +34,12 @@
     * [sqltext](dics.md#sqltext)
     * [schema_name](dics.md#schemaname)
     * [fullscan](dics.md#fullscan)
-    * exec_count
-    * err_count
-    * exec_time_total_ms
-    * exec_time_max_ms
-    * exec_time_avg_ms
-    * sum_rows_sent
+    * [exec_count](dics.md#execcount)
+    * [err_count](dics.md#errcount)
+    * [exec_time_total_ms](dics.md#exectimetotalms)
+    * [exec_time_max_ms](dics.md#exectimemaxms)
+    * [exec_time_avg_ms](dics.md#exectimeavgms)
+    * [sum_rows_sent](dics.md#sumrowssent)
     * rows_sent_avg
     * rows_scanned
 * Sysstat
