@@ -1,13 +1,13 @@
 # アクティビティ - ezis DB パフォーマンス分析ツール
 
 * アクティビティ(ORACLE)
-  * Active Sessions Count
-  * redo size
-  * Execute to Parse % 
-  * enqueue waits
-  * logons current
-  * user commits
-  * session logical reads
+  * [Active Sessions Count](dics.md#active-sessions-count)
+  * [redo size](dics.md#redo-size)
+  * [Execute to Parse %](dics.md#execute-to-parse)
+  * [enqueue waits](dics.md#enqueue-waits)
+  * [logons current](dics.md#logons-current)
+  * [user commits](dics.md#user-commits)
+  * [session logical reads](dics.md#session-logical-reads)
   * physical blocks read
   * Memory Usage %
   * TOP physical blocks read

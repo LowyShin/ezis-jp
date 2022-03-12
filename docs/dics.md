@@ -2,6 +2,11 @@
 
 ### Aborted_clients
 ### Aborted_connects
+
+### Active Sessions Count
+
+稼働中のセッション数
+
 ### avg_elapsed_time_sec
 
 [MySQL]
@@ -64,6 +69,12 @@ SQLまたは実行コマンド。
 
 処理時間(ミリセカンド、1/1000秒)
 
+### enqueue waits
+
+[Oracle]
+
+
+
 ### err_count
 
 エラー数
@@ -83,6 +94,12 @@ SQLまたは実行コマンド。
 ### exec_time_total_ms
 
 全体実行時間(ms、ミリセカンド)
+
+### Execute to Parse % 
+
+[Oracle]
+
+実行のためのSQL解析 %
 
 ### Exlcude sleep
 
@@ -122,6 +139,11 @@ SQLまたは実行コマンド。
 
 ロック数
 
+### logons current
+
+[Oracle]
+
+現在ログオンしているセッション
 
 ### Max_used_connections
 
@@ -150,6 +172,11 @@ SQLまたは実行コマンド。
 
 処理要請数
 
+### redo size
+
+[Oracle]
+
+
 ### schema_name
 
 [MySQL]
@@ -157,6 +184,13 @@ SQLまたは実行コマンド。
 スキーマ名。データベース名を指す。
 
 ### Search
+
+### session logical reads
+
+[Oracle]
+
+セッション毎の論理的読込
+
 ### Slave_connections
 ### Sort_rows
 ### Sort_scan
@@ -212,6 +246,12 @@ SQL文
 [MySQL]
 
 ユーザー
+
+### user commits
+
+[Oracle]
+
+ユーザーがSQLをコミット(完了)した数
 
 ### wait time(ms)
 
