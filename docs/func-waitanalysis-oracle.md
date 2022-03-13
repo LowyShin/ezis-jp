@@ -13,13 +13,13 @@
         * SQL*Net message from client
         * SQL*Net message to client
         * log file sync
-        * enq:TX - row lock conntention
+        * [enq: TX - row lock contention](dics.md#enq-tx---row-lock-contention)
         * SQL*Net more data from client
         * db file sequential read
         * Disk file operations I/O
         * buffer busy waits
         * latch:cache buffers chains
-        * enq: TX - index contention
+        * [enq: TX - index contention](dics.md#enq-tx---index-contention)
         * enq: SQ - contention
         * latch: enqueue hash chains
         * read by other session

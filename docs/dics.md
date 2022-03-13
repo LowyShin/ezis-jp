@@ -25,13 +25,13 @@
 ### Binlog_stmt_cache_use
 ### Bytes_received
 
-[MySQL]
+[ORACLE, MySQL]
 
 外部からDBMSに受け取ったByte
 
 ### Bytes_sent
 
-[MySQL]
+[ORACLE, MySQL]
 
 DBMSから外部に送信したByte
 
@@ -77,9 +77,30 @@ SQLまたは実行コマンド。
 
 ### enqueue waits
 
-[Oracle]
+[ORACLE]
+
+### enq: TX - index contention
+
+[ORACLE]
+
+主に同時に複数のセッションが索引のある表に対して大量のDMLを実行する場合に発生するTXロック共有モードで獲得するための待機
+
+https://www.ex-em.co.jp/blog/enq-tx-index-contention/
 
 
+### enq: TX - row lock contention
+
+[ORACLE]
+
+行レベル・ロックによる競合が発生したことを意味します。
+
+下記のような3つの場合に行レベル・ロック競合が発生します。
+
+* 複数セッションが同一行を更新する場合
+* 複数セッションが同一一意キーでの競合を起こす場合
+* 複数セッションがビットマップ索引で競合を起こす場合
+
+* 参照 : https://www.ex-em.co.jp/blog/enq-tx-row-lock-contention/
 
 ### err_count
 
@@ -145,6 +166,12 @@ SQLまたは実行コマンド。
 
 ロック数
 
+### L/Reads(Logical Reads)
+
+[ORACLE]
+
+論理読込数
+
 ### logons current
 
 [Oracle]
@@ -174,6 +201,12 @@ SQLまたは実行コマンド。
 [Oracle]
 
 物理ブロックの読込数
+
+### P/Reads(physical reads)
+
+[ORACLE]
+
+物理読込数
 
 ### processlist_state
 
@@ -255,7 +288,7 @@ SQL文
 
 ### Threads_running
 
-[MySQL]
+[ORACLE, MySQL]
 
 稼働中のスレッド
 
@@ -264,6 +297,13 @@ SQL文
 [MySQL]
 
 時間。データが記録された時間を意味するケースが多い。
+
+### TimeLine
+
+[ORACLE, MySQL, Mariadb, SQL Server, PostgreSQL]
+
+* 好きな時間帯にマウスをドラッグするとその時間帯の状態が確認できます。（最短1時間単位）
+
 
 ### TOP Active Sessions Count
 

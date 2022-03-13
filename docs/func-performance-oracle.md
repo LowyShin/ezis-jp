@@ -1,8 +1,8 @@
 ## Performance
 
-* Server
+* DBMS選択
   * 見たいサーバーをクリックするとそのサーバーの性能情報に切り替わります。初期値は最初のサーバーになるのでご注意ください。
-* Time Line
+* [TimeLine](dics.md#TimeLine)
   * 好きな時間帯にマウスをドラッグするとその時間帯の状態が確認できます。（最短1時間単位）
 * Top Activity
 * TopSql
@@ -11,8 +11,8 @@
     * Disk Reads
     * Elapsed
     * CPU Time
-    * P/Reads(Physical Reads)
-    * L/Reads(Logical Reads)
+    * [P/Reads(Physical Reads)](dics.md#preadsphysical-reads)
+    * [L/Reads(Logical Reads)](dics.md#lreadslogical-reads)
     * Buffer Gets
     * Block Changes
   * sql_id
@@ -21,8 +21,8 @@
 * TopSession
   * CPU Used
   * Execute count
-  * L/Reads
-  * P/Reads
+  * [L/Reads](dics.md#preadsphysical-reads)
+  * [P/Reads](dics.md#lreadslogical-reads)
   * Redo
 * Sysstat
   * % Non-Parse CPU
