@@ -7,6 +7,12 @@
 
 稼働中のセッション数
 
+### ActiveSessions Elapsed Time
+
+[Oracle]
+
+稼働中のセッションが処理完了した時間
+
 ### avg_elapsed_time_sec
 
 [MySQL]
@@ -157,6 +163,18 @@ SQLまたは実行コマンド。
 
 最大処理に消費した時間（秒）
 
+### Memory Usage %
+
+[Oracle]
+
+メモリ使用率
+
+### physical blocks read
+
+[Oracle]
+
+物理ブロックの読込数
+
 ### processlist_state
 
 [MySQL]
@@ -168,7 +186,7 @@ SQLまたは実行コマンド。
 ### Qcache_queries_in_cache
 ### Questions
 
-[MySQL]
+[Oracle, MySQL]
 
 処理要請数
 
@@ -184,6 +202,12 @@ SQLまたは実行コマンド。
 スキーマ名。データベース名を指す。
 
 ### Search
+
+### Session
+
+[Oracle]
+
+接続したクライアント
 
 ### session logical reads
 
@@ -219,7 +243,7 @@ SQL文
 
 ### Threads_connected
 
-[MySQL]
+[Oracle, MySQL]
 
 接続したスレッド
 
@@ -240,6 +264,18 @@ SQL文
 [MySQL]
 
 時間。データが記録された時間を意味するケースが多い。
+
+### TOP Active Sessions Count
+
+[Oracle]
+
+稼働中のセッション数
+
+### TOP physical blocks read
+
+[Oracle]
+
+物理ブロック読込数ランキング
 
 ### user
 
