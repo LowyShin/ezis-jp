@@ -16,9 +16,10 @@
   * [ActiveSessions Elapsed Time](dics.md#activesessions-elapsed-time)
 
 ### [Session](dics.md#session)
-    * Active Only
-    * Auto Refresh
-    * Manual Refresh
+
+  * Active Only
+  * Auto Refresh
+  * Manual Refresh
 
 ### Lock
 
