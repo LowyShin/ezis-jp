@@ -85,9 +85,6 @@ SQLまたは実行コマンド。
 
 主に同時に複数のセッションが索引のある表に対して大量のDMLを実行する場合に発生するTXロック共有モードで獲得するための待機
 
-https://www.ex-em.co.jp/blog/enq-tx-index-contention/
-
-
 ### enq: TX - row lock contention
 
 [ORACLE]
@@ -99,8 +96,6 @@ https://www.ex-em.co.jp/blog/enq-tx-index-contention/
 * 複数セッションが同一行を更新する場合
 * 複数セッションが同一一意キーでの競合を起こす場合
 * 複数セッションがビットマップ索引で競合を起こす場合
-
-* 参照 : https://www.ex-em.co.jp/blog/enq-tx-row-lock-contention/
 
 ### err_count
 
