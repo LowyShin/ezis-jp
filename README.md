@@ -117,6 +117,8 @@ ezisはサーバー側のAgentは不要なのでモニターする側のサー�
 
 * [インストール及び操作マニュアル](docs/README.md)
 
+クライアントをインストールすると「プロダクトキー」が必要ですが、お問い合わせ頂ければ無料のキーをお送り致しますのでお気軽にご相談ください。
+
 ### Windows
 
 * [Ezis for ORACLE](https://www.ezis.cloud/downloads/ezis/oracle/windows)
